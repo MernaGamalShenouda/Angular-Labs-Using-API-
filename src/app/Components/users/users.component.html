@@ -1,0 +1,7 @@
+<div class="d-flex flex-wrap justify-content-start">
+    @for (u of Users; track u.id) {
+      <div class="col-md-4 mb-3">
+        <app-one-user [user]="u"></app-one-user>
+      </div>
+    }
+</div>

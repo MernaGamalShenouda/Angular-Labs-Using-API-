@@ -1,0 +1,28 @@
+@if (user) {
+  <div class="alert alert-secondary">
+    <div class="row">
+      <div class="col">
+        <strong>Name:</strong> {{user.name}}
+      </div>
+    </div>
+    <div class="row">
+      <div class="col">
+        <strong>Age:</strong> {{user.age}}
+      </div>
+    </div>
+    <div class="row">
+      <div class="col">
+        <strong>Phone:</strong> {{user.phone}}
+      </div>
+    </div>
+    <div class="row">
+      <div class="col">
+        <strong>Email:</strong> {{user.email}}
+      </div>
+    </div>
+  </div>
+}@else {
+  <div class="alert alert-danger">
+    <h1>Loading...</h1>
+  </div>
+}

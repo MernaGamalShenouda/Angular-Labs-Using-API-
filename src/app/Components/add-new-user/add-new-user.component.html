@@ -1,0 +1,56 @@
+<div class="container">
+  <div class="row">
+    <div class="col">
+      <form [formGroup]="regForm" class="form">
+        <div class="form-group d-flex m-2">
+          <label for="name" class="w-25">Name</label>
+          <input formControlName="name" id="name" class="form-control" type="text">
+        </div>
+
+        @if (!NameValid) {
+          <div class="d-inline w-100">
+            Name Not Valid
+          </div>
+        }
+
+        <div class="form-group d-flex m-2">
+          <label for="age" class="w-25">Age</label>
+          <input formControlName="age" id="age" class="form-control" type="number">          
+        </div>
+
+        @if (!AgeValid) {
+          <div class="d-inline w-100">
+            Age Not Valid
+          </div>
+        }
+
+        <div class="form-group d-flex m-2">
+          <label for="phone" class="w-25">Phone</label>
+          <input formControlName="phone" id="phone" class="form-control" type="number">
+        </div>
+
+        @if (!PhoneValid) {
+          <div class="d-inline w-100">
+            Phone Not Valid
+          </div>
+        }
+
+
+        <div class="form-group d-flex m-2">
+          <label for="email" class="w-25">Email</label>
+          <input formControlName="email" id="email" class="form-control" type="text">
+        </div>
+
+        @if (!EmailValid) {
+          <div class="d-inline w-100">
+            Email Not Valid
+          </div>
+        }
+
+        <div class="form-group text-center p-3">
+          <input (click)="Add()" class="btn btn-outline-primary" value="ADD" type="submit">
+        </div>
+      </form>
+    </div>
+  </div>
+</div>

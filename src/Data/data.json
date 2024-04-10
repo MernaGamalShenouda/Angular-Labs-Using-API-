@@ -1,0 +1,67 @@
+{
+  "users": [
+    {
+      "id": "1",
+      "name": "Ahmed",
+      "age": 20,
+      "phone": "011111111",
+      "email": "Ahmed@gmail.com"
+    },
+    {
+      "id": "2",
+      "name": "Aly",
+      "age": 22,
+      "phone": "02222222",
+      "email": "Aly@gmail.com"
+    },
+    {
+      "id": "3",
+      "name": "Sara",
+      "age": 25,
+      "phone": "0333333",
+      "email": "Sara@gmail.com"
+    },
+    {
+      "id": "4",
+      "name": "Sama",
+      "age": 23,
+      "phone": "0444444",
+      "email": "Sama@gmail.com"
+    },
+    {
+      "id": "5",
+      "name": "Hana",
+      "age": 27,
+      "phone": "05555555555",
+      "email": "Hana@gmail.com"
+    },
+    {
+      "id": "34ec",
+      "name": "KOKO",
+      "age": "222",
+      "phone": "0123123123",
+      "email": "KOKO@gmail.com"
+    },
+    {
+      "id": "87af",
+      "name": "Merna Gamal",
+      "age": 25,
+      "phone": 1272259967,
+      "email": "merna140@gmail.cmo"
+    },
+    {
+      "id": "17a3",
+      "name": "Nardine",
+      "age": 26,
+      "phone": 1272259967,
+      "email": "Nardine@gmail.com"
+    },
+    {
+      "id": "ad69",
+      "name": "Malak",
+      "age": 35,
+      "phone": 1272259967,
+      "email": "Malak140@gmail.cmo"
+    }
+  ]
+}
